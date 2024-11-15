@@ -22,6 +22,10 @@ new_emails.extend([
     "Please come to our store and buy the product",
     "Advertisement Buy your products at our store"
 ])
+new_emails.extend([
+    "This opportunity is a flash sale that will never come again",
+    "If you buy our mocha potty pad now, you can buy it for just 100 dollars."
+])
 
 # new_emails 값을 벡터로 변환
 new_X = loaded_vectorizer.transform(new_emails)

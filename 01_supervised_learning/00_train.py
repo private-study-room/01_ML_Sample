@@ -1,3 +1,4 @@
+# 지도학습 샘플
 # pip install pandas sklearn datasets pickle seaborn matplotlib
 # sklearn
 # 파이썬에서 제공되는 머신러닝 라이브러리이다. 
@@ -143,7 +144,7 @@ print(f"모델의 테스트 데이터 정확도: {accuracy * 100:.2f}%")
 # 분류 모델의 성능을 평가하기 위한 도구로, 실제 클래스와 예측 클래스 간의 관계를 나타내는 표이다. 
 # 일반적으로 이진 분류 문제에서 사용된다.
 # 진짜 긍정(True Positive, TP) : 실제로 긍정 클래스인 샘플을 모델이 긍정으로 올바르게 예측한 수.
-# 진짜 부정(True Positive, TN) : 실제로 부정 클래스인 샘플을 모델이 부정으로 올바르게 예측한 수.
+# 진짜 부정(True Negative, TN) : 실제로 부정 클래스인 샘플을 모델이 부정으로 올바르게 예측한 수.
 # 거짓 긍정(False Positive, FP) : 실제로 부정 클래스인 샘플을 모델이 긍정으로 잘못 예측한 수.
 # 거짓 부정(False Negative, FN) : 실제로 긍정 클래스인 샘플을 모델이 부정으로 잘못 예측한 수.
 cm = confusion_matrix(y_test, y_pred)
